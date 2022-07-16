@@ -4,8 +4,14 @@ namespace App\Controllers;
 
 class Home extends BaseController
 {
-    public function index()
+    public static $navigation = [
+        '' => 'Home',
+        'product' => 'Products',
+        'about' => 'About',
+    ];
+
+    public function getIndex()
     {
-        return view('welcome_message');
+        return view('home');
     }
 }

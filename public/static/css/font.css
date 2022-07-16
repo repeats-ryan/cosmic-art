@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=DM+Serif+Display:ital@0;1&family=DM+Serif+Text:ital@0;1&display=swap');
+
+:root {
+    --dm-serif-display: 'DM Serif Display', serif;
+    --dm-serif: 'DM Serif Text', serif;
+    --dm-sans: 'DM Sans', sans-serif;
+
+    --bs-font-sans-serif: var(--dm-sans);
+    --bs-font-serif: var(--dm-serif);
+}
+
+body {
+    font-family: var(--dm-sans);
+}
+
+h1, h2 {
+    font-family: var(--dm-serif-display);
+}
+
+h3, h4, h5, h6 {
+    font-family: var(--dm-serif);
+}
